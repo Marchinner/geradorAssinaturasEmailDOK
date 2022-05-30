@@ -1,0 +1,74 @@
+body {
+    background-color: beige;
+    font-family: Calibri;
+}
+
+#formulario {
+    display: inline-block;
+}
+
+.form-itens {
+    padding: 5px;
+}
+
+.botoes {
+    padding: 5px;
+}
+
+#botaoSalvar {
+    padding: 20px 230px;
+}
+
+#previewer {
+    background-image: url(../imgs/modelo.png);
+    background-size: 586px 196px;
+    width: 586px;
+    height: 196px;
+}
+.nomeSobrenome {
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#nomeP {
+    padding-left: 12px;
+}
+
+#sobrenomeP {
+    padding: 0 6px;
+    color: rgb(255, 192, 0);
+}
+
+#funcaoP {
+    font-size: 15px;
+    color: rgb(255, 192, 0);
+    padding-left: 12px;
+}
+
+.celularRamalEmail {
+    padding: 14px 38px;
+    font-size: 13px;
+}
+
+.celularRamal {
+    display: inline-flex;
+}
+
+#celularP {
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#emailP {
+    line-height: 2.2;
+}
+
+#visualizacao {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

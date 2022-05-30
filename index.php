@@ -138,6 +138,7 @@ if (isset($_GET['BTenviar'])) {
                     btnDownload.download = 'minha-imagem';
                     btnDownload.click();
                 })
+                scale: 4;
             });
         </script>
 

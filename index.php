@@ -20,6 +20,7 @@ if (isset($_GET['BTenviar'])) {
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="./js/html2canvas.min.js"></script>
 
 </head>
@@ -44,7 +45,7 @@ if (isset($_GET['BTenviar'])) {
                 </div>
                 <div class="form-itens">
                     <label for="celular">Telefone pessoal:</label>
-                    <input type="tel" name="celular" id="celular" placeholder="(xx)xxxxxxxxx" required>
+                    <input type="tel" name="celular" id="celular" placeholder="(XX)XXXXX-XXXX" required>
 
                     <label for="ramal">Ramal:</label>
                     <input type="number" name="ramal" id="ramal" required>
@@ -129,6 +130,10 @@ if (isset($_GET['BTenviar'])) {
         </script>
 
         <script>
+            $(document).ready(function() {
+                $('[name="celular"]').mask('(99) 99999-9999');
+            });
+            
             let btnGenerate = document.querySelector('.gerar-imagem');
             let btnDownload = document.querySelector('.download');
 

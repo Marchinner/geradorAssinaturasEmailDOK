@@ -1,10 +1,17 @@
 body {
-    background-color: beige;
+    background-color: #FFCB2F;
     font-family: Calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 250px;
 }
 
 #formulario {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .form-itens {
@@ -13,6 +20,7 @@ body {
 
 .botoes {
     padding: 5px;
+    display: flex;
 }
 
 #botaoSalvar {
@@ -66,9 +74,20 @@ body {
 
 #visualizacao {
     display: none;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+#tela {
+    padding: 100px;
+    max-width: 596px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+    height: fit-content;
 }
